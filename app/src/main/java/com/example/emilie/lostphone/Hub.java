@@ -81,7 +81,7 @@ public class Hub extends AppCompatActivity implements View.OnClickListener{
                 startActivity(intent);
                 break;
 
-            case R.id.calculatrice:
+            case R.id.calculatrices:
                 intent = new Intent(this, Calculatrice.class);
                 startActivity(intent);
                 break;
