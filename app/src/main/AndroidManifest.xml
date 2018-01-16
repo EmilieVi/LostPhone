@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".applications.Messsages" />
+        <activity android:name=".applications.Musique" />
+        <activity android:name=".applications.Calculatrice" />
+        <activity android:name=".applications.Meteo" />
+        <activity android:name=".applications.Galerie" />
+        <activity android:name=".applications.Plan" />
+        <activity android:name=".applications.BlocNotes"></activity>
     </application>
 
 </manifest>
