@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LostPhone.iml" filepath="$PROJECT_DIR$/LostPhone.iml" />
+      <module fileurl="file://C:\Users\Lenovo\Documents\Ludus\Application Mobile\LostPhone\LostPhone.iml" filepath="C:\Users\Lenovo\Documents\Ludus\Application Mobile\LostPhone\LostPhone.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Lenovo\Documents\Ludus\Application Mobile\LostPhone\app\app.iml" filepath="C:\Users\Lenovo\Documents\Ludus\Application Mobile\LostPhone\app\app.iml" />
     </modules>
   </component>
 </project>
