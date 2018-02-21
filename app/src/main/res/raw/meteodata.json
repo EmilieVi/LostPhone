@@ -1,0 +1,12 @@
+[
+  {
+    "city_name":"Neverland",
+    "city_temperature":"23°C",
+    "city_weather":"null"
+  },
+  {
+    "city_name":"Arendelle",
+    "city_temperature":"-5°C",
+    "city_weather":"null"
+  }
+]
