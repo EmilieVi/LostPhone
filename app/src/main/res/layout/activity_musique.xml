@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.emilie.lostphone.applications.Musique">
+    tools:context="com.example.emilie.lostphone.applications.musique.Musique">
 
     <LinearLayout
         android:id="@+id/upperLayout"
@@ -32,10 +32,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ListView
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/music_rv"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-        </ListView>
+
+        </android.support.v7.widget.RecyclerView>
     </LinearLayout>
 
     <LinearLayout
@@ -60,14 +62,15 @@
 
         <ImageButton
             android:id="@+id/play"
+            style="@style/Widget.AppCompat.ImageButton"
             android:layout_width="0dp"
             android:layout_height="40dp"
-            android:layout_weight=".33"
-            android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".33"
             android:background="@android:color/transparent"
-            android:src="@drawable/ic_play_arrow_black_24dp"
-            android:scaleType="fitCenter"/>
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_play_arrow_black_24dp" />
 
         <ImageButton
             android:id="@+id/next"
