@@ -1,9 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:background="#95d5e2"
     tools:context="com.example.emilie.lostphone.applications.Meteo">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".6">
 
-</android.support.constraint.ConstraintLayout>
+        <!-- meteo de la ville selectionne-->
+
+        <TextView
+            android:id="@+id/city_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neverland"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            style="@style/Meteo"/>
+
+        <ImageView
+            android:src="@drawable/ic_account_circle_black_24px"
+
+            android:layout_below="@id/city_main"
+            android:id="@+id/city_weather_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/city_temperature_main"
+            style="@style/Meteo"
+            android:text="0°C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:background="#7880ed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/city_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

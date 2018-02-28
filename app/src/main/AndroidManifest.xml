@@ -9,20 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Hub">
+        <activity android:name=".Hub" android:theme="@style/Theme.Design.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".applications.Messsages" />
-        <activity android:name=".applications.Musique" />
+        <activity android:name=".applications.messages.Messsages" />
+        <activity android:name=".applications.musique.Musique" />
         <activity android:name=".applications.Calculatrice" />
         <activity android:name=".applications.Meteo" />
         <activity android:name=".applications.Galerie" />
         <activity android:name=".applications.Plan" />
-        <activity android:name=".applications.BlocNotes"></activity>
+        <activity android:name=".applications.BlocNotes" />
+        <activity android:name=".applications.messages.Conversation">
+
+        </activity>
     </application>
 
 </manifest>

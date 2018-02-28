@@ -1,6 +1,6 @@
 package com.example.emilie.lostphone;
 
-import android.content.Context;
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,9 +10,9 @@ import android.widget.Button;
 import com.example.emilie.lostphone.applications.BlocNotes;
 import com.example.emilie.lostphone.applications.Calculatrice;
 import com.example.emilie.lostphone.applications.Galerie;
-import com.example.emilie.lostphone.applications.Messsages;
+import com.example.emilie.lostphone.applications.messages.Messsages;
 import com.example.emilie.lostphone.applications.Meteo;
-import com.example.emilie.lostphone.applications.Musique;
+import com.example.emilie.lostphone.applications.musique.Musique;
 import com.example.emilie.lostphone.applications.Plan;
 
 public class Hub extends AppCompatActivity implements View.OnClickListener{
@@ -45,12 +45,13 @@ public class Hub extends AppCompatActivity implements View.OnClickListener{
         messages.setOnClickListener(this);
         blocnote.setOnClickListener(this);
         calculatrice.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View v) {
         Intent intent;
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.meteo:
                 intent = new Intent(this, Meteo.class);
                 startActivity(intent);

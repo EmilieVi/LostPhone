@@ -1,9 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
     tools:context="com.example.emilie.lostphone.applications.Calculatrice">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ecran"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|end"
+            android:textAlignment="gravity"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_height="0dp"
+        android:layout_weight="0.75">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <Button
+                android:id="@+id/sept"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="7"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/huit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="8"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/neuf"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="9"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/mul"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="*"
+                style="@style/CalcTouche"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <Button
+                android:id="@+id/quatre"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="4"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/cinq"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="5"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/six"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="6"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/div"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="/"
+                style="@style/CalcTouche"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <Button
+                android:id="@+id/un"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="1"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/deux"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="2"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/trois"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="3"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/add"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="+"
+                style="@style/CalcTouche"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="C"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="0"
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/egal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="="
+                style="@style/CalcTouche"/>
+            <Button
+                android:id="@+id/sub"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".25"
+                android:text="-"
+                style="@style/CalcTouche"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:src="#e52d19"/>
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test de nom de musique"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/photo"
+        android:layout_alignTop="@id/photo"/>
+
+    <TextView
+        android:id="@+id/album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/photo"
+        android:text="Test de nom d'album"
+        android:layout_below="@id/titre"/>
+</RelativeLayout>
