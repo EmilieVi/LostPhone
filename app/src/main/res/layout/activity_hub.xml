@@ -5,61 +5,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/wallpaper2"
     tools:context="com.example.emilie.lostphone.Hub">
 
-    <Button
+    <ImageView
         android:id="@+id/messages"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Messages"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/msg"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="81dp" />
 
-    <Button
+    <ImageView
         android:id="@+id/galerie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Galerie"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/photo"
         tools:layout_editor_absoluteX="201dp"
         tools:layout_editor_absoluteY="81dp" />
 
-    <Button
+    <ImageView
         android:id="@+id/musique"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Musique"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/musique"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="164dp" />
 
-    <Button
+    <ImageView
         android:id="@+id/meteo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Météo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/meteom"
         tools:layout_editor_absoluteX="201dp"
         tools:layout_editor_absoluteY="164dp" />
 
-    <Button
+    <ImageView
         android:id="@+id/calculatrice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Calculatrice"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/calculatrice"
         tools:layout_editor_absoluteY="257dp"
         tools:layout_editor_absoluteX="55dp" />
 
-    <Button
+    <ImageView
         android:id="@+id/plan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Plan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/plan"
         tools:layout_editor_absoluteY="257dp"
         tools:layout_editor_absoluteX="201dp" />
 
-    <Button
+    <ImageView
         android:id="@+id/blocnotes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bloc note"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/blocnote"
         tools:layout_editor_absoluteY="349dp"
         tools:layout_editor_absoluteX="120dp" />
 

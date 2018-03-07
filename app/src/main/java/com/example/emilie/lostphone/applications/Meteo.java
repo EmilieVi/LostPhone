@@ -10,7 +10,6 @@ import com.example.emilie.lostphone.R;
 import com.example.emilie.lostphone.adapter.VilleAdapter;
 
 import org.json.JSONArray;
-import org.json.JSONException;
 
 public class Meteo extends AppCompatActivity {
 

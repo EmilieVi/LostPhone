@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="bottom"
-    android:background="#95d5e2"
+
+    android:background="#ABC8FE"
     tools:context="com.example.emilie.lostphone.applications.Meteo">
     
     <RelativeLayout
@@ -25,7 +26,9 @@
             style="@style/Meteo"/>
 
         <ImageView
-            android:src="@drawable/ic_account_circle_black_24px"
+
+            android:src="@drawable/soleil"
+
 
             android:layout_below="@id/city_main"
             android:id="@+id/city_weather_main"
@@ -44,7 +47,8 @@
     </RelativeLayout>
     
     <LinearLayout
-        android:background="#7880ed"
+
+        android:background="#ABC8FE"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".4">

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.example.emilie.lostphone.applications.BlocNotes;
 import com.example.emilie.lostphone.applications.Calculatrice;
@@ -17,26 +18,26 @@ import com.example.emilie.lostphone.applications.Plan;
 
 public class Hub extends AppCompatActivity implements View.OnClickListener{
 
-    Button meteo;
-    Button plan;
-    Button musique;
-    Button galerie;
-    Button messages;
-    Button blocnote;
-    Button calculatrice;
+    ImageView meteo;
+    ImageView plan;
+    ImageView musique;
+    ImageView galerie;
+    ImageView messages;
+    ImageView blocnote;
+    ImageView calculatrice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hub);
 
-        meteo = (Button) findViewById(R.id.meteo);
-        plan = (Button) findViewById(R.id.plan);
-        musique = (Button) findViewById(R.id.musique);
-        galerie = (Button) findViewById(R.id.galerie);
-        messages = (Button) findViewById(R.id.messages);
-        blocnote = (Button) findViewById(R.id.blocnotes);
-        calculatrice = (Button) findViewById(R.id.calculatrice);
+        meteo = (ImageView) findViewById(R.id.meteo);
+        plan = (ImageView) findViewById(R.id.plan);
+        musique = (ImageView) findViewById(R.id.musique);
+        galerie = (ImageView) findViewById(R.id.galerie);
+        messages = (ImageView) findViewById(R.id.messages);
+        blocnote = (ImageView) findViewById(R.id.blocnotes);
+        calculatrice = (ImageView) findViewById(R.id.calculatrice);
 
         meteo.setOnClickListener(this);
         plan.setOnClickListener(this);
