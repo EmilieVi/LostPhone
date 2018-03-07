@@ -1,0 +1,29 @@
+[
+  {
+    "contactName":"Olaf",
+    "contactFace":"null",
+    "conversation":[
+      {
+        "author":"him",
+        "message":"Salut"
+      },
+      {
+        "author":"me",
+        "message":"Salut mec"
+      },
+      {
+        "author":"me",
+        "message":"Ca va?"
+      },
+      {
+        "author":"him",
+        "message":"Ouaip"
+      }
+    ]
+  },
+  {
+    "contactName":"Vaiana",
+    "contactFace":"null",
+    "conversation":"empty"
+  }
+]
